@@ -35,6 +35,7 @@ function Satlab () {
 
              
                 <h3>Analysis and Iterations</h3>
+                <img src="../images/satlabActiveflow.svg"/>
 
                 <h3>Assets</h3>
 
