@@ -1,5 +1,5 @@
 import '../App.css';
-import Rotate from '../components/Rotate';
+
 import Cta from '../components/Cta';
 
 function Welearn () {

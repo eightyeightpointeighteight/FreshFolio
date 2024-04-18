@@ -3,6 +3,7 @@ import Sprints from "../components/Sprints";
 import Process from "../components/Process";
 import Flows from "../components/Flows";
 import Heatmap from "../components/Heatmap";
+import Wireframes from "../components/Wireframes";
 
 import Cta from "../components/Cta";
 import {IconContext} from "react-icons/lib";
@@ -51,7 +52,8 @@ function Home () {
                 <div className="pwrapR">
                     <p>Achieving clarity of communication through visualisation and Interaction.</p>
                 </div>
-            </div>
+               </div>
+               <Wireframes />
              
             
                  <div className="CTA">

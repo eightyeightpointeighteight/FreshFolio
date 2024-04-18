@@ -1,5 +1,5 @@
 import { useLottie, useLottieInteractivity } from "lottie-react";
-import heatmap from "../assets/newHeat.json";
+import wireframes from "../assets/wireframes.json";
 
 
 
@@ -9,10 +9,10 @@ const style = {
   };
 
 const options = {
-  animationData: heatmap,
+  animationData: wireframes,
 };
 
-const Heatmap = () => {
+const Wireframes = () => {
   const lottieObj = useLottie(options, style);
   const Animation = useLottieInteractivity({
     lottieObj,
@@ -20,7 +20,7 @@ const Heatmap = () => {
     actions: [
    
       {
-        visibility: [3, 0.7],
+        visibility: [0.2, 0.9],
         type: "seek",
         frames: [0,420 ],
       },
@@ -30,4 +30,4 @@ const Heatmap = () => {
   return Animation;
 };
 
-export default Heatmap;
+export default Wireframes;
