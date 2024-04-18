@@ -1,0 +1,54 @@
+.card{
+    border: 1px solid hsla(210, 10%, 96%, 0.2);
+ 
+  
+    text-align: left;
+    width: 400px;
+    height: 360px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    
+    text-decoration: none;
+    cursor: pointer;
+    transition: 250ms;
+    overflow: hidden;
+    
+}
+.card:hover {
+    border: 1.3px solid #F4F5F6;
+    text-decoration: none;
+    
+  
+ 
+  
+
+
+}
+
+
+
+.cardimg {
+    display:flex;
+    align-self: center;
+    padding-top: 10px;
+  
+  
+    width: 260px;
+}
+
+
+.cardData {
+    align-content: flex-end;
+    height: 84px;
+    padding:16px 10px 20px 20px;
+    line-height: 1.6;
+    text-decoration: none;
+    
+    
+
+   
+}
+
+
+

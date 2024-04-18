@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter Variable", sans-serif;
+}
+html {
+    background-color: #292A2C;
+    overflow-x: hidden;
+    
+}
+
+.home,
+.about,
+.contact,
+.cases,
+.notebook,
+.work,
+.cpd,
+.welearn,
+.privacy {
+  
+  display: flex;
+  flex-direction: column;
+ 
+  
+ 
+  padding-top: 8px;
+  
+  background-color: #292A2C;
+  color: #F4F5F6;
+}
+
+.root-layout{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  
+
+
+}
+
+h1 {
+
+
+  font-size:clamp(2.8rem, 5vw, 8rem) ;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+
+}
+
+h2 {
+  font-size:clamp(2.2rem, 3vw, 6rem) ;
+
+  font-weight: 500;
+}
+
+h3 {
+  font-size:clamp(1.2rem, 1.4vw, 3rem) ;
+
+  font-weight: 400;
+}
+
+h5 {
+  font-size:1.4rem ;
+ 
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+
+  font-weight: 400;
+  line-height:1.6rem ;
+}
+
+small {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #F4F5F6;
+}
+
+
+
+
+
+.jumbo {
+  padding: 80px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+
+
+.sectionL{
+  padding: 80px 80px 20px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+  gap: 20px
+  
+}
+
+.pwrap{
+  display: flex;
+
+  width: 40%;
+
+
+}
+.sectionR{
+  padding: 80px 20px 20px 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: auto;
+  width:auto;
+
+  
+  gap: 20px
+  
+}
+.pwrapR{
+  display: flex;
+
+  width: 80%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.CTA{
+  display: flex;
+ 
+ align-items: center;
+  flex-direction: column;
+  padding:  80px;
+
+}
+
+
+ .error-page{
+  color: #F4F5F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  width: 100%;
+  padding-top: 200px;
+}
+
+
+.cardlayout {
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 80px 60px 160px 60px;
+  gap:80px;
+  justify-content:center;
+ 
+ 
+}
+.backlott {
+ 
+ 
+  background: rgb(244,245,246);
+  background: radial-gradient(circle, rgba(244,245,246,0.944437149859944) 0%, rgba(244,245,246,0.6587228641456583) 0%, rgba(117,118,120,0.6055015756302521) 0%, rgba(83,84,86,0.7455575980392157) 8%, rgba(41,42,44,1) 21%);
+ 
+ 
+
+
+
+  
+
+ 
+}
+
+@media screen and (max-width: 960px) {
+  .home,
+  .about,
+  .contact {
+    font-size: 2.5rem;
+  }
+
+  h1,h2
+    
+    
+  {
+    text-align: left;
+    padding-right: 12px;
+  
+  }
+
+ .pwrap, .pwrapR, .jumbo {
+  width :fit-content;
+ 
+ }
+
+ .sectionL, .sectionR {
+  padding: 80px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  gap: 20px
+  
+}
+}
